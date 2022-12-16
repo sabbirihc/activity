@@ -1,0 +1,112 @@
+header {
+  background: linear-gradient(to left, rgba(0,0,0,.6), rgba(0,0,0,.6)), url(images/banner.jpg);
+  background-size: cover;
+}
+.navbar .fa-rebel {
+  color: #3EC2A0;
+}
+.nav-link:hover {
+  color: #3EC2A0!important;
+}
+li .active {
+  color: #3EC2A0!important;
+}
+.banner h1 {
+  color: #3EC2A0;
+}
+.banner {
+  padding: 150px 0px;
+}
+.btn-outline-info {
+  color: #fff!important;
+  border-color: #fff!important;
+  border: 2px solid!important;
+}
+.btn-outline-info:hover {
+  color: #fff!important;
+  background: #3EC2A0!important;
+  border-color: #3EC2A0!important;
+}
+.title span{
+  position: relative;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #17a2b8;
+  padding-bottom: 6px;
+}
+
+.title span::after {
+  position: absolute;
+  content: "";
+  bottom: 0px;
+  left: 20%;
+  width: 60%;
+  height: 3px;
+  background: #17a2b8;
+}
+.download {
+  color: #fff!important;
+  background-color: #17a2b8!important;
+  border-color: #17a2b8!important;
+  border: 2px solid!important;
+}
+.download:hover {
+  color: #000!important;
+  background-color: #fff!important;
+  border-color: #000!important;
+}
+.hire {
+  background: #0A8EA0;
+}
+.hire-content h2 {
+  color: #ddd!important;
+  font-weight: 600!important;
+}
+.hire-content p {
+  color: #ddd;
+}
+.hire-content .btn-info {
+  color: #0A8EA0;
+  background-color: #fff;
+  border-color: #fff;
+}
+.hire-content .btn-info:hover {
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+}
+.hire-content .btn-primary {
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+}
+.hire-content .btn-primary:hover {
+  color: #0A8EA0;
+  background-color: #fff;
+  border-color: #fff;
+}
+footer {
+  background: #191919;
+}
+footer ul li a {
+  height: 42px;
+  width: 42px;
+  color: #999;
+  background: #222;
+  display: inline-block!important;
+}
+footer ul li a i {
+  padding-top: 13px;
+}
+footer a:hover {
+  color: #fff!important;
+}
+footer p, footer a {
+  color: #999!important;
+  text-decoration: none;
+}
+@media(min-width: 0px) and (max-width: 767px){
+    .banner{
+        padding: 50px 0px;
+    }
+}
